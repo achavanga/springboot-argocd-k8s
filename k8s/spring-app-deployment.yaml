@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: spring-argocd-app
-          image: ghcr.io/achavanga/springdemo/spring-argocd-app:v1
+          image: ghcr.io/achavanga/springdemo/spring-argocd-app:v2
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
