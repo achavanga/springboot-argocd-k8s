@@ -41,7 +41,7 @@ By default, the Argo CD API server is not exposed with an external IP. To access
 ```
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
 ```
-
+<!----><a name="changepassword"></a>
 ### 4. Getting the Argo CD default password
 The initial password for the admin account is auto-generated and stored as clear text in the field password in a secret named argocd-initial-admin-secret in your Argo CD installation namespace.
 ```
@@ -73,6 +73,6 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 The API server can then be accessed using https://localhost:8080 .
 
-Login using `admin` and password the one shown by step 4 above.
+Login using `admin` and password the one shown by [step 4](https://github.com/achavanga/springboot-argocd-k8s/blob/main/README.md#changepassword) above.
 
 ![alt text](https://github.com/achavanga/springboot-argocd-k8s/blob/main/img.png?raw=true)
