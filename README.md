@@ -71,3 +71,5 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 The API server can then be accessed using https://localhost:8080 .
 
 Login using `admin` and password the one shown by step 4 above.
+
+![alt text](https://github.com/achavanga/springboot-argocd-k8s/img.png?raw=true)
