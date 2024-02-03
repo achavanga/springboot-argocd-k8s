@@ -7,8 +7,8 @@ spec:
     app: springboot-argocd-k8s-app
   ports:
     - protocol: "TCP"
-      port: 8080
-      targetPort: 8080
+      port: 9080
+      targetPort: 9080
   type: ClusterIP
 ---
 apiVersion: apps/v1
@@ -30,4 +30,4 @@ spec:
           image: ghcr.io/achavanga/springdemo/springboot-argocd-k8s-app:v1
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 9080
