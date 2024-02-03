@@ -41,7 +41,7 @@ By default, the Argo CD API server is not exposed with an external IP. To access
 ```
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
 ```
-<!----><a name="changepassword"></a>
+<!----><a id="changepassword"></a>
 ### 4. Getting the Argo CD default password
 The initial password for the admin account is auto-generated and stored as clear text in the field password in a secret named argocd-initial-admin-secret in your Argo CD installation namespace.
 ```
