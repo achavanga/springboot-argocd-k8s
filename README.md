@@ -44,7 +44,7 @@ The initial password for the admin account is auto-generated and stored as clear
 ```
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
-The copy password that is shown on your commandline up to the character before % .
+Copy the password that is shown on your commandline up to the character before % .
 
 You can change the admin password by following these steps: (note required for this demo though)
 #### - Invalidating Admin Credentials
