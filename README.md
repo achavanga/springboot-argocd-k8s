@@ -72,4 +72,4 @@ The API server can then be accessed using https://localhost:8080 .
 
 Login using `admin` and password the one shown by step 4 above.
 
-![alt text](https://github.com/achavanga/springboot-argocd-k8s/img.png?raw=true)
+![alt text](https://github.com/achavanga/springboot-argocd-k8s/blob/main/img.png?raw=true)
