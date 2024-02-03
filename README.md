@@ -1,4 +1,7 @@
 # Spring Boot 3.2 ArgoCD K8s Application
+
+![alt text](https://github.com/achavanga/springboot-argocd-k8s/blob/main/argocdk8s_overview.png?raw=true)
+
 Demo Spring Boot application that show how to configure ArgoCD and Kubernetes
 
 ## Requirements
