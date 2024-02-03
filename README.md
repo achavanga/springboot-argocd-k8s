@@ -7,12 +7,14 @@ Demo Spring Boot application that show how to configure ArgoCD and Kubernetes
 ## Requirements
 - [Argo CD](https://argo-cd.readthedocs.io/)
 - [Kunernetes](https://kubernetes.io/)
-- Install [kubectl](https://kubernetes.io/docs/tasks/tools/).
-- [Spring Boot](https://start.spring.io/)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/).
+- [Spring Boot](https://docs.spring.io/spring-boot/docs/3.2.2/maven-plugin/reference/html/)
 - Java 21
-- Ranker Desktop ( - for docker )
-- Maven 3.9
+- [GitHub Repository](https://github.com/)
+- [Ranker Desktop](https://docs.rancherdesktop.io/getting-started/installation/) ( - for docker )
+- [Maven 3.9](https://maven.apache.org/guides/index.html)
 - [kubectx and kubens](https://github.com/ahmetb/kubectx?tab=readme-ov-file#kubectl-plugins-macos-and-linux)
+- [Kustomize](https://kustomize.io/)( not used currently in this project)
 
 Assuming k8s is up and running:
 ### 1. create the new Argo Cd namespace as follows
